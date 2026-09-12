@@ -1,23 +1,19 @@
 # AI Solution Decision Matrix · Juno
 
-> Module 2 · Strategy. The build / buy / fine-tune / partner call, made with the **M2 · AI Solution Decision Matrix**. Paste the tool's markdown over this file.
-
 ## The decision
 
-_What are you deciding, and why now?_
+Whether RocketShip builds Automated Prioritization in Juno as a Hybrid (RAG + Agentic) Copilot, vs buying a generic LLM API or fine-tuning a model on our corpus.
 
-_____
+Why now: roadmap discussions are driven by the loudest voice in Slack rather than customer evidence. Priorities reverse weekly, and the PM cannot defend the call to leadership.
 
 ## Options scored
 
 | Option | Cost | Speed | Control | Moat | Risk | Score |
 |---|---|---|---|---|---|---|
-| _Build_ | _…_ | _…_ | _…_ | _…_ | _…_ | _…_ |
-| _Buy / API_ | _…_ | _…_ | _…_ | _…_ | _…_ | _…_ |
-| _Fine-tune_ | _…_ | _…_ | _…_ | _…_ | _…_ | _…_ |
+| Build | 2 | 3 | 5 | 5 | 3 | 3.6 |
+| Buy / API | 5 | 5 | 2 | 2 | 5 | 3.8 |
+| Fine-tune | 2 | 2 | 4 | 5 | 3 | 3.2 |
 
 ## Recommendation
 
-_The chosen option and the business reason._
-
-_____
+Buy/API wins on cost and speed, but Build wins on the dimensions that matter most for a trusted prioritization system: control over the evidence and logic, RocketShip-specific differentiation, and the ability to evolve the system with the business. Fine-tuning adds complexity without solving the need for continuously refreshed evidence.
