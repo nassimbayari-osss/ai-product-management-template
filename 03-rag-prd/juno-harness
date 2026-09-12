@@ -1,0 +1,21 @@
+## Harness Diagnostic Diff · Juno Harness Lab
+
+_Working notes from Module 3 Lab 1. Do not paste over `03-harness-prd/prd.md`. That file comes from the AI PRD Builder._
+
+**Prototype:** https://ai-prd-synthesizer.lovable.app
+
+### Harness off
+
+Only one priority surfaced: CSV export crash — a major workflow blocker causing the user to lose hours.
+
+### Harness on
+
+Only one priority surfaced: CSV export crash — P0 / Reliability First, now grounded in the RocketShip strategy and verified against the retrieved strategy clause.
+
+### Tool trace
+
+Juno used 5/5 turns and made four tool calls: search_strategy (READ/AUTO) to retrieve strategy clauses about export reliability, read_tickets (READ/AUTO) to corroborate the issue with 18 reports, draft_priority (DRAFT/AUTO) to propose P0, and write_roadmap (WRITE/CONFIRM), which paused for human approval before committing the P0 priority. The human approved the write, and the roadmap was updated. The request exceeded the 8-second target at 11.07s and was logged. The loop stopped at the 5-turn limit.
+
+### Takeaway
+
+> The harness is what turns an AI answer into a decision I can actually trust.
