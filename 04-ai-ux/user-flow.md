@@ -42,12 +42,3 @@ PM approval, rejection, or priority edit is logged as a human decision and corre
 **Fail-safe**
 
 If strategy retrieval or verification fails, Juno does not present the recommendation as strategically grounded. It shows an “Unverified” warning, explains the missing evidence, and blocks write_roadmap() until a valid supporting strategy clause is retrieved and verified.
-
-## Self-review
-
-- [ ] Trigger fires on the earliest possible signal, no manual “Start AI” click.
-- [ ] At least one breadcrumb message turns latency into transparency.
-- [ ] Maneuver matches the M2 value prop (Automation / Augmentation / Insights / Personalization).
-- [ ] Every automated decision has a working kill switch.
-- [ ] Fail-safe path is explicit. No dead end with a bad AI result.
-- [ ] Hidden logic references M3 PRD specs (Top-K, latency target, knowledge base).
