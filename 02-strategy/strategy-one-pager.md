@@ -4,28 +4,31 @@
 
 ## The bet
 
-_The one-sentence strategic bet._
+Juno will help RocketShip PMs turn fragmented product signals into evidence-backed prioritization decisions faster, using AI grounded in RocketShip’s live product and strategy context while keeping final roadmap decisions with the PM.
 
 _____
 
 ## Three-layer model
 
-- **Model layer:** _which model(s), and why._
-- **Data / retrieval layer:** _what proprietary data or context creates advantage._
-- **Product layer:** _the experience users actually pay for._
+- **Model layer:** Use a capable general-purpose LLM through an API rather than building a foundation model. The model provides synthesis, classification, reasoning, and drafting; RocketShip's differentiated value comes from the system around it.
+- **Data / retrieval layer:** Ground Juno in RocketShip's proprietary product-signal corpus — support tickets, customer interviews, usage signals, and strategy documents — using RAG to retrieve current, relevant evidence before making a recommendation. This creates an advantage because the model can apply RocketShip-specific priorities and evidence rather than relying on generic knowledge.
+- **Product layer:** A PM co-pilot that identifies recurring problems, evaluates them against company strategy and customer evidence, and produces an evidence-backed priority recommendation with sources, rationale, and confidence. The PM reviews and approves the final decision.
 
 ## Why now
 
-_Market timing + why this is defensible._
+RocketShip's rapid growth has created Signal Collapse: PMs have more customer and product signals than they can reliably synthesize, while headcount is frozen. AI can now combine retrieval, synthesis, and workflow automation well enough to reduce this bottleneck without requiring RocketShip to build its own foundation model. The defensible advantage is not the model itself; it is RocketShip's proprietary signal corpus, prioritization logic, workflow integration, and trust controls.
 
 _____
 
 ## Success metric
 
-_The single number that says the bet paid off._
+50% reduction in PM time spent synthesizing and ranking incoming product signals before a prioritization decision.
+
+Measure baseline time to produce a prioritized opportunity list against time with Juno, while maintaining human approval and evidence grounding.
 
 _____
-# AI Strategy One-Pager - Juno Automated Prioritization
+
+# Raw Work: AI Strategy One-Pager - Juno Automated Prioritization
 
 ## 1. Problem & Workflow
 
