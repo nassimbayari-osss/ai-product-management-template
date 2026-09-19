@@ -14,7 +14,7 @@ A new customer interview transcript or product-signal batch is submitted to Juno
 
 ## The flow
 
-1. 1. Retrieve relevant strategy clauses using search_strategy().
+1. Retrieve relevant strategy clauses using search_strategy().
 2. Retrieve supporting customer/product evidence using read_tickets().
 3. Synthesize and rank signals against the retrieved strategy, decision rules, and evidence.
 4. Verify each recommendation is grounded in a strategy clause returned during the current request.
