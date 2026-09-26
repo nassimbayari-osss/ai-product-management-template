@@ -40,27 +40,44 @@ This repo is my final project for the **AI Product Management Certification**. E
 ## PM Execution Plan
 
 ### Where Juno is today
+Prototype-stage AI PM assistant. Juno can synthesize fragmented product signals, connect them to RocketShip strategy, verify evidence grounding, and prepare draft priorities for PM review. Roadmap commitments remain human-controlled.
 _____
 
 ### What ships next (next 2 sprints)
+Sprint 1: Strengthen evidence retrieval and verification; improve handling of conflicting/incomplete evidence.
+Sprint 2: Instrument PM workflow-time tracking, finalize automated evals, and test Juno with a broader set of real prioritization requests.
 _____
 
 ### What I watch (dashboards)
+PM time per prioritization cycle
+Juno usage and repeat usage
+Insight rejection/regeneration rate
+Human eval score
+Evidence-grounding / Unverified rate
+Roadmap commitments blocked by verification
 _____
 
 ### Red lines (what blocks shipping — numbers, not feelings)
+>10% of outputs contain fabricated or unsupported evidence → stop prioritization use.
+Any roadmap commitment based on an unverified insight → stop and investigate.
+<4.0/5 average human evaluation score → no expansion.
+Any permission/safety failure that allows an unapproved roadmap write → immediate block.
 _____
 
 ### Governance
 _Compliance · Safety · Reliability · Reputation._
+Compliance: approved data sources and controlled access.
+Safety: unverified insights cannot be committed; roadmap writes require PM confirmation.
+Reliability: tool failures/timeouts stop the run and surface a partial result.
+Reputation: no fabricated evidence, unsupported claims, or silent AI decisions.
 
 ---
 
 ## Build Insights
 
-- **Friction point.** _____
-- **Key learning.** _____
-- **Aha moment.** _____
+- **Friction point.** The hardest part was translating a broad AI product idea into specific workflows, controls, evaluation criteria, and measurable outcomes without over-automating a decision that still requires PM judgment. Also, I do not have a technical background, which made this exercise difficult without AI assistance. 
+- **Key learning.** I'll try this exercise for an actual business problem I want to solve.
+- **Aha moment.** The biggest shift was realizing that building an AI product isn't just about getting the model to produce a good answer. The product is the system around the model that makes the output trustworthy, usable, and safe to act on.
 
 ---
 
