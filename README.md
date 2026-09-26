@@ -44,32 +44,32 @@ Prototype-stage AI PM assistant. Juno can synthesize fragmented product signals,
 _____
 
 ### What ships next (next 2 sprints)
-Sprint 1: Strengthen evidence retrieval and verification; improve handling of conflicting/incomplete evidence.
-Sprint 2: Instrument PM workflow-time tracking, finalize automated evals, and test Juno with a broader set of real prioritization requests.
+- Sprint 1: Strengthen evidence retrieval and verification; improve handling of conflicting/incomplete evidence.
+- Sprint 2: Instrument PM workflow-time tracking, finalize automated evals, and test Juno with a broader set of real prioritization requests.
 _____
 
 ### What I watch (dashboards)
-PM time per prioritization cycle
-Juno usage and repeat usage
-Insight rejection/regeneration rate
-Human eval score
-Evidence-grounding / Unverified rate
-Roadmap commitments blocked by verification
+- PM time per prioritization cycle
+- Juno usage and repeat usage
+- Insight rejection/regeneration rate
+- Human eval score
+- Evidence-grounding / Unverified rate
+- Roadmap commitments blocked by verification
 _____
 
 ### Red lines (what blocks shipping — numbers, not feelings)
->10% of outputs contain fabricated or unsupported evidence → stop prioritization use.
-Any roadmap commitment based on an unverified insight → stop and investigate.
-<4.0/5 average human evaluation score → no expansion.
-Any permission/safety failure that allows an unapproved roadmap write → immediate block.
+- >10% of outputs contain fabricated or unsupported evidence → stop prioritization use.
+- Any roadmap commitment based on an unverified insight → stop and investigate.
+- <4.0/5 average human evaluation score → no expansion.
+- Any permission/safety failure that allows an unapproved roadmap write → immediate block.
 _____
 
 ### Governance
 _Compliance · Safety · Reliability · Reputation._
-Compliance: approved data sources and controlled access.
-Safety: unverified insights cannot be committed; roadmap writes require PM confirmation.
-Reliability: tool failures/timeouts stop the run and surface a partial result.
-Reputation: no fabricated evidence, unsupported claims, or silent AI decisions.
+- Compliance: approved data sources and controlled access.
+- Safety: unverified insights cannot be committed; roadmap writes require PM confirmation.
+- Reliability: tool failures/timeouts stop the run and surface a partial result.
+- Reputation: no fabricated evidence, unsupported claims, or silent AI decisions.
 
 ---
 
