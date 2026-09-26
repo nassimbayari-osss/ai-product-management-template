@@ -1,8 +1,8 @@
 # Juno PM
 
-> _(one-line pitch: what Juno does, for whom, in one sentence)_
+Juno helps RocketShip PMs turn fragmented product signals into evidence-backed insights and prioritization decisions, grounded in RocketShip’s live product and strategy context.
 
-_Your name · cohort · date_
+Nassim Ayari - AI PM Cohort - September 2026
 
 This repo is my final project for the **AI Product Management Certification**. Each module's artefact lives in its own folder; this README is the dashboard and the pitch.
 
@@ -14,7 +14,7 @@ This repo is my final project for the **AI Product Management Certification**. E
 
 ### M1 · Prompting
 - **System prompt** — [`01-prompting/system-prompt.md`](01-prompting/system-prompt.md)
-- **Lovable prototype** — _(share URL)_
+- **Lovable prototype** — (https://ai-prd-synthesizer.lovable.app)
 
 ### M2 · Strategy
 - **Decision matrix** — [`02-strategy/decision-matrix.md`](02-strategy/decision-matrix.md)
